@@ -24,10 +24,9 @@ ativar os recursos:
 "outDir": "./"
 ```
 
-```bash
 microframework backend utilizando node
-npm install express
 
-necessario para o typescript instalado
+```bash
+npm install express
 npm install @types/express
 ```
