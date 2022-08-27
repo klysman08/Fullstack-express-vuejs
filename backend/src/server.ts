@@ -1,10 +1,16 @@
 import express from "express";
 
 const app = express();
+app.use(express.json());
 
 app.listen("3333", () => {
     console.log("Server started on port 3333!");
 });
+
+/* tipos de parâmetros */
+// Query params: para filtros em informações
+// Route params: para identificar recursos (atualizar/deletar)
+// Body: para criar ou editar informações nas requisições sem necessidade de alterar a url
 
 // criando um método get
 app.get("/users", (request, response) => {

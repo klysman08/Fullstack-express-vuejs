@@ -1,4 +1,4 @@
-#Configurações iniciais para backend com Express
+# Configurações iniciais para backend com Express
 
 ```bash
 npm init -y
@@ -29,4 +29,20 @@ microframework backend utilizando node
 ```bash
 npm install express
 npm install @types/express
+```
+
+para iniciar o servidor na porta 3333
+
+```bash
+
+const app = express();
+
+app.listen("3333", () => {
+    console.log("Server started on port 3333!");
+});
+
+```
+
+```bash
+ npm run dev
 ```
