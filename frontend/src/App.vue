@@ -1,11 +1,17 @@
 <template>
   <div>
-    <h1>HelloWorld</h1>
+    <h1>{{ name }}</h1>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 
-export default defineComponent({});
+export default defineComponent({
+  data() {
+    return {
+      name: 'Hello worldddd'
+    };
+  }
+});
 </script>
