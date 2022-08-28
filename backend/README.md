@@ -44,5 +44,11 @@ app.listen("3333", () => {
 ```
 
 ```bash
+Pacotes:
+npm install uuid
+npm install @types/uuid -D
+```
+
+```bash
  npm run dev
 ```
