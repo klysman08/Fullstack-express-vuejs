@@ -1,11 +1,18 @@
 # frontend
 
+## Packages
+
+```
+normalize.css
+axios
+```
+
 ## Project setup
 
 ```
 npm install
 
-npm install normalize.css
+
 ```
 
 ### Compiles and hot-reloads for development

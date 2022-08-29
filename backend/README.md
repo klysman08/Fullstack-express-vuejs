@@ -45,8 +45,12 @@ app.listen("3333", () => {
 
 ```bash
 Pacotes:
-npm install uuid
-npm install @types/uuid -D
+npm install:
+
+uuid -> gerar ids unicos para cadastro de objetos
+@types/uuid -D -> para types em TS
+cors  -> permite a comunicação do backend e frontend no localhost
+@types/cors  -> para types em TS
 ```
 
 ```bash
