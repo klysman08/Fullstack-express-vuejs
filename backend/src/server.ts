@@ -49,6 +49,7 @@ app.post("/users", (request, response) => {
     // recebendo os dados do usuário
     const { name, email } = request.body;
     const user = { id: uuid(), name, email };
+    console.log("Usuario criado");
     // salvando os dados do usuário na base de dados
     users.push(user);
     // retornando os dados do usuário
@@ -75,6 +76,7 @@ app.put("/users/:id", (request, response) => {
 // criando um método delete
 app.delete("/users/:id", (request, response) => {
     // recebendo os dados do usuário
+    console.log("Usuario deletado");
     const { id } = request.params;
     // localizando o usuário na base de dados
     const userIndex = users.findIndex((user) => user.id === id);
